@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Agro para o Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Alura Agro</h1>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="#sobre">Sobre</a>
+            <a class="cabecalho__menu__link" href="#importancia">Importância</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__principal" id="sobre">
+            <div class="conteudo__principal__texto">
+                <h2 class="conteudo__principal__titulo">O Agro para o Mundo</h2>
+                <p class="conteudo__principal__paragrafo">
+                    O agronegócio brasileiro é um dos principais motores da economia e um pilar essencial para a segurança alimentar do planeta. Utilizando tecnologia de ponta, sustentabilidade e inovação, levamos alimento e qualidade para bilhões de pessoas em todos os continentes.
+                </p>
+            </div>
+            <div class="conteudo__principal__imagem">
+                <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=500&q=80" alt="Campo de plantação verde sob o sol">
+            </div>
+        </section>
+
+        <section class="conteudo__detalhes" id="importancia">
+            <h3 class="conteudo__detalhes__titulo">Por que o Agro importa?</h3>
+            <div class="conteudo__detalhes__cards">
+                <div class="card">
+                    <h4>Alimentação</h4>
+                    <p>Produção em larga escala para abastecer mercados internos e externos.</p>
+                </div>
+                <div class="card">
+                    <h4>Tecnologia</h4>
+                    <p>Uso de drones, IA e maquinário moderno para otimizar a colheita.</p>
+                </div>
+                <div class="card">
+                    <h4>Sustentabilidade</h4>
+                    <p>Práticas conscientes para preservar o solo e os recursos hídricos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido no projeto Alura - O Agro para o Mundo &copy; 2026</p>
+    </footer>
+</body>
+</html>
